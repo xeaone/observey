@@ -1,0 +1,32 @@
+{
+	"name": "observey",
+	"version": "1.0.0",
+	"description": "A file/folder system observer/watcher",
+	"main": "index.js",
+	"scripts": {
+		"start": "",
+		"test": ""
+	},
+	"engines": {
+		"node": ">=7.6.0"
+	},
+	"keywords": [
+		"observey",
+		"file",
+		"folder",
+		"direcotry",
+		"system",
+		"watch",
+		"watcher"
+	],
+	"author": "Alexander Elias",
+	"license": "MPL-2.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AlexanderElias/observey.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AlexanderElias/observey/issues"
+	},
+	"homepage": "https://github.com/AlexanderElias/observey#readme"
+}
