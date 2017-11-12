@@ -1,6 +1,6 @@
 {
 	"name": "observey",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A file/folder system observer/watcher",
 	"main": "index.js",
 	"scripts": {
