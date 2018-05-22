@@ -1,7 +1,6 @@
-[Star Issue Watch](https://github.com/AlexanderElias/observey)
 
 # Observey
-**A file/folder system observer/watcher**
+A file/folder system observer/watcher
 
 ### Overview
 Watches and observes files and folders.
@@ -10,7 +9,7 @@ Watches and observes files and folders.
 ```js
 const Observey = require('observey');
 
-const observer = Observey.create({
+const observer = new Observey({
 	path: '/path/to/file/or/folder'
 });
 
@@ -23,22 +22,19 @@ await observer.open();
 
 ## API
 
-### Observey.observers
-Returns an Array of Observers.
+### Observey
+Creates and returns a Observey class.
 
-### Observey.create(options)
-Creates and returns a Observer. Adds the Observer to the Observey.observers Array.
 - `options: Object`
 	- `path: String` Path to file or folder
-
-### Observey.observer
-Returns class Observer.
+	
 - `on: Function` Emitter
 	- `error: String` Event emitted on error
 	- `add: String` Event emitted on file/folder addtion
 	- `change: String` Event emitted on file/folder change
 	- `remove: String` Event emitted on file/folder removal
 	- `modify: String` Event emitted on file/folder modification (add, change, remove)
+
 
 ## Authors
 [AlexanderElias](https://github.com/AlexanderElias)

@@ -1,11 +1,10 @@
 {
 	"name": "observey",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "A file/folder system observer/watcher",
 	"main": "index.js",
 	"scripts": {
-		"start": "",
-		"test": ""
+		"t": "node test"
 	},
 	"engines": {
 		"node": ">=7.6.0"

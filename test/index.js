@@ -1,4 +1,3 @@
-
 'use strict';
 
 const Path = require('path');
@@ -7,7 +6,7 @@ const Observey = require('../index');
 (async function () {
 	try {
 
-		const observer = Observey.create({
+		const observer = new Observey({
 			path: Path.join(__dirname, 'dev')
 		});
 
@@ -30,6 +29,6 @@ const Observey = require('../index');
 		await observer.open();
 
 	} catch (e) {
-		console.log(e);
+		console.error(e);
 	}
 }());
