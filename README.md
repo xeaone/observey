@@ -37,7 +37,7 @@ Creates and returns a Observey class.
 
 
 ## Authors
-[AlexanderElias](https://github.com/AlexanderElias)
+[AlexanderElias](https://github.com/vokeio)
 
 ## License
 [Why You Should Choose MPL-2.0](http://veldstra.org/2016/12/09/you-should-choose-mpl2-for-your-opensource-project.html)
